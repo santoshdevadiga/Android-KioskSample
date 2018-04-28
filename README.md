@@ -9,11 +9,14 @@ There is three way to implement Kiosk
 This codebase uses Task Lock and Device Management API to achive Kiosk/Single-use devices application.
 
 For running the sample code, follow below steps :
--Download this sample code and open in Android Studio
--Connect device and run project
--Open Command line terminal and run Android Debug Bridge Command(ADB) given below
-  adb shell dpm set-device-owner com.santoshdevadiga.kiosksample/.DeviceAdminReceiver.
- Note: Command line should be open where adb.exe file is present. It will be present inside Android SDK (PATH: Sdk\platform-tools folder).
--Click on Enable Kiosk Mode to set app in kiosk mode.
+  -Download this sample code and open in Android Studio
+  
+  -Connect device and run project
+  
+  -Open Command line terminal and run Android Debug Bridge Command(ADB) given below
+    adb shell dpm set-device-owner com.santoshdevadiga.kiosksample/.DeviceAdminReceiver.
+    Note: Command line should be open where adb.exe file is present. It will be present inside Android SDK (PATH: Sdk\platform-tools folder).
+
+  -Click on Enable Kiosk Mode to set app in kiosk mode.
  
 
