@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KioskSample</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="device_admin_password">Android@123</string>
+    <string name="button_txt_enable_kiosk">Enable Kiosk Mode</string>
+    <string name="button_txt_disable_kiosk">Disable Kiosk Mode</string>
+</resources>
