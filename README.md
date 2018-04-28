@@ -22,5 +22,8 @@ For running the sample code, follow below steps :
     Note: Command line should be open where adb.exe file is present. It will be present inside Android SDK (PATH: Sdk\platform-tools folder).
 
   -Click on "Enable Kiosk Mode" to set app in kiosk mode.
- 
+
+Minimum Configuration require:
+  -Android Studio version 1.0+
+  -Test Device with Android 6.0+
 
